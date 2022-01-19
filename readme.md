@@ -42,13 +42,13 @@ def http_api_msg():
     }
     return res.msg(data, msg)
 ```
-> 输出数据格式
+> 响应数据格式
 ```json
 {
-  'code': 2000,
-  'message': 'success',
-  'data': 'abc',
-  'end_time': '2022-01-19 17:47:05.858000',
-  'start_time': '2022-01-19 17:47:06.858373'
+  "code": 200,
+  "message": "success",
+  "data": "abc",
+  "end_time": "2022-01-19 17:47:06.858373",
+  "start_time": "2022-01-19 17:47:06.858373"
 }
 ```
